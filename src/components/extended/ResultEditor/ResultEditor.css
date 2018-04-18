@@ -1,0 +1,8 @@
+.editorButton {
+  background-color: olive;
+  color: orange;
+}
+
+.editorButton:hover {
+  cursor: pointer;
+}

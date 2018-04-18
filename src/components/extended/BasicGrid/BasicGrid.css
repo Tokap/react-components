@@ -1,0 +1,20 @@
+.basicGrid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.basic-col {
+  align-self: flex-start;
+  width: 24%;
+}
+
+@media (max-width: 560px) {
+  .basicGrid {
+    display: block;
+  }
+}
+
+.gridContainer {
+  width: 100%;
+}

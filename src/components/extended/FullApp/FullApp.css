@@ -1,0 +1,17 @@
+:root {
+  --pear: #ccdc29;
+  --whiteish: #ebedea;
+  --offwhite: #f4f4f4;
+}
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+body {
+  font-family: "Lato, Verdana, sans-serif";
+  width: 100%;
+}

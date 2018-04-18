@@ -1,0 +1,22 @@
+.Range
+  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff;
+  color: #4a90e2;
+}
+/* Update selectors to not require an !important declaration */
+.Range .DayPicker-Day {
+  border-radius: 0 !important;
+}
+
+.ResetButton {
+  background: transparent;
+  border-color: black;
+  border-radius: 15%;
+  color: black;
+}
+
+.ResetButton:hover {
+  cursor: pointer;
+  border-color: green;
+  color: green;
+}

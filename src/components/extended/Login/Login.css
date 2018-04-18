@@ -1,0 +1,55 @@
+/* TODO: Integrate Proper Color Scheme */
+
+#login-form {
+  background-color: white;
+  display: inline-block;
+  left: 0;
+  margin: 0 auto 50px auto;
+  min-width: 400px;
+  padding: 30px 0px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 10em;
+  width: 50%;
+}
+
+#login-form input[type="submit"] {
+  background: linear-gradient(115deg, #73b268 0, #5b7f59 100%);
+  border: 0;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  height: 40px;
+  text-transform: uppercase;
+  width: 205px;
+}
+
+#login-form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+#login-form input[type="password"],
+#login-form input[type="text"] {
+  background-color: transparent;
+  border: 1px solid #dfe1e5;
+  border-width: 0 0 1px 0;
+  font-size: 16px;
+  margin-top: 7px;
+  padding-bottom: 5px;
+  width: 80%;
+}
+
+#login-form ul {
+  color: red;
+  font-size: 12px;
+  height: 30px;
+  list-style: none;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+#login-form label {
+  display: block;
+  margin-left: 10%;
+  text-align: left;
+}
